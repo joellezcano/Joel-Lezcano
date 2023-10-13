@@ -6,17 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div>Bucle For</div>
-    <div>
-        <?php
-        for ($indice = 1; $indice <=100; $indice++) {
-            echo 'valor del indice: '
-            echo $indice;
-            echo '<br>'
-            $indice++
+<?php
+    if (iseet($_post['numero']) && !empty(&_POST['numero'])) {
+        &numero = &_POST['numero'];
+        %inicio=1;
+        while (&inicio<=&numero) {
+            echo 'valor generado: ' . &inicio;
+            &inicio++;
         }
-        <?php
-        
-    </div>
+    } else {
+        echo 'valor no valido. ';
+    }
+?>
 </body>
 </html>
