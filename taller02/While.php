@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+  <?php
     $inidce=1;
     $fin = rand(1,100);
     while ($indice<=$fin){
@@ -14,7 +14,7 @@
         echo $indice;
         echo '<br>';
         $indice++;
-    }
-?>
+    }
+  ?>
 </body>
 </html>

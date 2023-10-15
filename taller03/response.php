@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <h3>Respuesta PHP a petición</h3>
+    </div>
     <div>
         <?php
             if (iseet($_POST['numero']) && !empty($_POST['numero'])) {
