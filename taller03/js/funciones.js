@@ -1,4 +1,5 @@
 jQuery("#calcular").click(function () {
+
     var numero = jQuery("#numero").val();
     var params = { "numerofactorial": numero  };
 
@@ -10,7 +11,7 @@ jQuery("#calcular").click(function () {
         type: 'post',
         beforeSend: function () {
             jQuery("#resultado").hide();
-            jQuery("#cargando").hide();
+            jQuery("#cargando").show();
         },
         success: function ( response ) {
             jQuery("#resultado").show();
